@@ -6,6 +6,21 @@
     box-sizing: border-box;
     font-family: 'Spartan',sans-serif;
 }
+ .left {
+        align-content: center;
+        align-items: center;
+      }
+      .clock {
+        position: absolute;
+        font-size: 1rem;
+        font-weight: 500;
+        align-self: center;
+        display: inline-block;
+        padding: 10px;
+        padding-top: 14px;
+        animation: glow 1.5s infinite;
+        color: gray;
+      }
 
 h1 {
     font-size: 50px;
